@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+<link rel="manifest" href="favicons/site.webmanifest">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <H1>Language Translator</H1>
+    <div class="container">
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i id="from" class="fas fa-volume-up"></i>
+              <i id="from" class="fas fa-copy"></i>
+            </div>
+            <select>
+            </select>
+            
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
+            <div class="icons">
+              <i id="to" class="fas fa-volume-up"></i>
+              <i id="to" class="fas fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate Text</button>
+    </div>
+
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
